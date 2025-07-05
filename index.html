@@ -1,58 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
     <title>Dribble</title>
-</head>
-<body class="text-white md:mx-14 md:my-2 mx-2 my-1">
+  </head>
+  <body class="text-white md:mx-14 md:my-2 mx-2 my-1">
     <header class="">
-        <nav class="hidden md:flex px-1 py-3 justify-between items-center border border-white rounded-full text-white">
-            <div class="items-left">
-                <ul class="flex gap-2">
-                    <li><a class="bg-[#291e1e] border-white rounded-full px-32 py-3 text-lg hover:bg-[#e0d6c2] hover:text-black transition duration-100 ease-in" href="#">Museo Sans</a></li>
-                    <li><a class="border border-white rounded-full px-12 py-3 text-lg hover:bg-[#e0d6c2] hover:text-black transition duration-100 ease-in" href="#">Collections</a></li>
-                    <li><a class="border border-white rounded-full px-12 py-3 text-lg hover:bg-[#e0d6c2] hover:text-black transition duration-100 ease-in" href="#">Our Mission</a></li>
-                    <li><a class="border border-white rounded-full px-12 py-3 text-lg hover:bg-[#e0d6c2] hover:text-black transition duration-100 ease-in" href="#">Events</a></li>
-                </ul>
-            </div>
-            <div class="items-right">
-                <ul>
-                    <li><a class="border border-white rounded-full px-20 py-4 text-lg hover:bg-[#e0d6c2] hover:text-black transition duration-100 ease-in" href="#">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-        <nav class="md:hidden px-1 py-3 border border-white rounded-full text-white">
-            <div>
-                <ul class="flex justify-between items-center">
-                    <li><a class=" bg-[#291e1e] border-white rounded-full px-16 py-3 text-lg" href="#">Museo Sans</a></li>
-                    <li><a class="border border-white rounded-full px-[36px] py-3 text-lg hover:bg-[#e0d6c2] hover:text-black" href="#">Menu</a></li>
-                </ul>
-            </div>
-
-        </nav>
+      <nav
+        class="hidden md:flex px-1 py-3 justify-between items-center border border-white rounded-full text-white"
+      >
+        <div class="items-left">
+          <ul class="flex gap-2">
+            <li>
+              <a
+                class="bg-[#291e1e] border-white rounded-full px-32 py-3 text-lg hover:bg-[#e0d6c2] hover:text-black transition duration-100 ease-in"
+                href="#"
+                >Museo Sans</a
+              >
+            </li>
+            <li>
+              <a
+                class="border border-white rounded-full px-12 py-3 text-lg hover:bg-[#e0d6c2] hover:text-black transition duration-100 ease-in"
+                href="#"
+                >Collections</a
+              >
+            </li>
+            <li>
+              <a
+                class="border border-white rounded-full px-12 py-3 text-lg hover:bg-[#e0d6c2] hover:text-black transition duration-100 ease-in"
+                href="#"
+                >Our Mission</a
+              >
+            </li>
+            <li>
+              <a
+                class="border border-white rounded-full px-12 py-3 text-lg hover:bg-[#e0d6c2] hover:text-black transition duration-100 ease-in"
+                href="#"
+                >Events</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="items-right">
+          <ul>
+            <li>
+              <a
+                class="border border-white rounded-full px-20 py-3 text-lg hover:bg-[#e0d6c2] hover:text-black transition duration-100 ease-in"
+                href="#"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <nav
+        class="md:hidden px-1 py-3 border border-white rounded-full text-white"
+      >
+        <div>
+          <ul class="flex justify-between items-center">
+            <li>
+              <a
+                class="bg-[#291e1e] border-white rounded-full px-16 py-3 text-lg"
+                href="#"
+                >Museo Sans</a
+              >
+            </li>
+            <li>
+              <a
+                class="border border-white rounded-full px-[36px] py-3 text-lg hover:bg-[#e0d6c2] hover:text-black"
+                href="#"
+                >Menu</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
-    <section id="content" class="flex flex-col md:flex-row gap-2 my-2 text-black">
-        <div class="lg:w-[35%] bg-[#e0d6c2] rounded-[40px] flex flex-col py-8 justify-between items-start gap-4">
-            <div class="px-5 space-y-4">
-                <h3 class="lg:text-xl border border-black rounded-2xl px-2 inline">CONGREVE STREET</h3>
-                <h1 class="text-3xl font-bold">Birmingham <span class="decoration-2 underline">Museums</span></h1>
+    <section
+      id="content"
+      class="flex flex-col md:flex-row gap-2 my-2 text-black"
+    >
+      <div
+        class="lg:w-[35%] bg-[#e0d6c2] rounded-[25px] flex flex-col py-6 justify-between items-start gap-4"
+      >
+        <div class="px-5 space-y-4">
+          <h3 class="border border-black rounded-2xl px-2 inline">
+            CONGREVE STREET
+          </h3>
+          <h1 class="text-3xl font-bold">
+            Birmingham <span class="decoration-2 underline">Museums</span>
+          </h1>
+        </div>
+        <div class="px-5 rounded-[20px]">
+          <img
+            class="rounded-[20px] transform transition duration-1000 hover:scale-105 ease lg:h-[500px] object-cover"
+            src="https://images.unsplash.com/photo-1577083288073-40892c0860a4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=5122&q=80"
+            alt="Article Img"
+          />
+        </div>
+        <div
+          class="flex px-5 justify-between items-center mt-4 border-t-2 border-black pt-4 w-full"
+        >
+          <h2>GET STARTED</h2>
+          <span><i class="fa-solid fa-arrow-right"></i></span>
+        </div>
+      </div>
+      <div class="lg:w-[65%] flex flex-col gap-2">
+        <div class="bg-[#8f8868] rounded-[25px] py-4">
+          <div
+            class="flex flex-col px-5 lg:flex-row gap-4 justify-between items-center"
+          >
+            <div class="space-y-8 py-4">
+              <h3 class="border border-black rounded-2xl px-2 inline">
+                EUROPEANA
+              </h3>
+              <h1 class="text-3xl font-bold">
+                A Woman Slicing
+                <span class="decoration-2 underline">Bread.</span>
+              </h1>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint,
+                quasi? Suscipit accusantium modi amet consectetur et perferendis
+                laboriosam sint alias.
+              </p>
+            </div>
+            <div>
+              <img
+                class="rounded-[20px] transform transition duration-1000 hover:scale-105 ease lg:w-[1100px] lg:h-[200px] h-[200px] w-[350px] object-cover"
+                src="https://images.unsplash.com/photo-1583934555920-8a26b7d75598?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2016&q=80"
+                alt="Article Img-2"
+              />
+            </div>
+          </div>
+          <div
+            class="flex px-5 justify-between items-center mt-4 border-t-2 border-black pt-4 w-full"
+          >
+            <h2>GET STARTED</h2>
+            <span><i class="fa-solid fa-arrow-right"></i></span>
+          </div>
+        </div>
+        <div class="flex flex-col lg:flex-row">
+          <div class="flex flex-col lg:w-[50%] bg-[#976c54] rounded-[25px] py-4 text-[#342415]">
+            <div class="px-5">
+              <img class="rounded-[25px] object-cover lg:h-[150px] lg:w-full"
+                src="https://storage.googleapis.com/studio-design-asset-files/projects/rROnRpBdOA/s-1308x804_v-fms_webp_32129183-71f9-43a5-a99d-13af27b1ca01_middle.webp"
+                alt=""
+              />
+            </div>
+            <div class="flex justify-between items-center p-5">
+              <h1 class="text-3xl lg:text-5xl font-bold">Portrait</h1>
+              <div class="flex">
+                <div class="w-[30px] h-[30px] bg-[#342415] rounded-[50%]"></div>
+                <div class="w-[30px] h-[30px] bg-[#342415] rounded-[50%]"></div>
+                <div class="w-[30px] h-[30px] bg-[#342415] rounded-[50%]"></div>
+              </div>
             </div>
             <div class="px-5">
-                <img class="rounded-[40px] lg:h-[500px] object-cover" src="https://images.unsplash.com/photo-1577083288073-40892c0860a4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=5122&q=80" alt="Article Img">
+              <p class="text-[14px]">
+                PORTRAIT OF MARITGE CLAESDR VOOGHT. DATE: 1639. INSTITUTION:
+                RIJKSMUSEUM. PROVIDER: RIJKSMUSEUM. PROVIDING COUNTRY:
+                NETHERLANDS. PUBLIC DOMAIN
+              </p>
             </div>
-            <div class="flex px-5 justify-between items-center mt-4 border-t-2 border-black pt-4 w-full">
-                <h2>GET STARTED</h2>
-                <span><i class="fa-solid fa-arrow-right"></i></span>
+            <div
+              class="flex px-5 justify-between items-center mt-4 border-t-2 border-black pt-4 w-full"
+            >
+              <h2>GET STARTED</h2>
+              <span><i class="fa-solid fa-arrow-right"></i></span>
             </div>
+          </div>
+          <div></div>
         </div>
-        <div class="lg:w-[65%]">
-
-        </div>
+      </div>
     </section>
-</body>
+  </body>
 </html>
